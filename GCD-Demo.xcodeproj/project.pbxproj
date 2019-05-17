@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		C7E55B66228E581A00A631B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E55B65228E581A00A631B1 /* AppDelegate.m */; };
-		C7E55B69228E581A00A631B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E55B68228E581A00A631B1 /* ViewController.m */; };
 		C7E55B6C228E581A00A631B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7E55B6A228E581A00A631B1 /* Main.storyboard */; };
 		C7E55B6E228E581B00A631B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7E55B6D228E581B00A631B1 /* Assets.xcassets */; };
 		C7E55B71228E581B00A631B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7E55B6F228E581B00A631B1 /* LaunchScreen.storyboard */; };
 		C7E55B74228E581B00A631B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E55B73228E581B00A631B1 /* main.m */; };
 		C7E55B7E228E581B00A631B1 /* GCD_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E55B7D228E581B00A631B1 /* GCD_DemoTests.m */; };
 		C7E55B89228E581B00A631B1 /* GCD_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E55B88228E581B00A631B1 /* GCD_DemoUITests.m */; };
+		C7E55B98228E58AA00A631B1 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E55B97228E58AA00A631B1 /* RootViewController.m */; };
+		C7E55B9B228E58BC00A631B1 /* Test1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E55B9A228E58BB00A631B1 /* Test1ViewController.m */; };
+		C7E55B9E228E596A00A631B1 /* Test4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E55B9D228E596A00A631B1 /* Test4ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +40,6 @@
 		C7E55B61228E581A00A631B1 /* GCD-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GCD-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7E55B64228E581A00A631B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C7E55B65228E581A00A631B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C7E55B67228E581A00A631B1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C7E55B68228E581A00A631B1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C7E55B6B228E581A00A631B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C7E55B6D228E581B00A631B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7E55B70228E581B00A631B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +51,12 @@
 		C7E55B84228E581B00A631B1 /* GCD-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GCD-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7E55B88228E581B00A631B1 /* GCD_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCD_DemoUITests.m; sourceTree = "<group>"; };
 		C7E55B8A228E581B00A631B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7E55B96228E58AA00A631B1 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		C7E55B97228E58AA00A631B1 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		C7E55B99228E58BB00A631B1 /* Test1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test1ViewController.h; sourceTree = "<group>"; };
+		C7E55B9A228E58BB00A631B1 /* Test1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test1ViewController.m; sourceTree = "<group>"; };
+		C7E55B9C228E596A00A631B1 /* Test4ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test4ViewController.h; sourceTree = "<group>"; };
+		C7E55B9D228E596A00A631B1 /* Test4ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test4ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +109,12 @@
 			children = (
 				C7E55B64228E581A00A631B1 /* AppDelegate.h */,
 				C7E55B65228E581A00A631B1 /* AppDelegate.m */,
-				C7E55B67228E581A00A631B1 /* ViewController.h */,
-				C7E55B68228E581A00A631B1 /* ViewController.m */,
+				C7E55B96228E58AA00A631B1 /* RootViewController.h */,
+				C7E55B97228E58AA00A631B1 /* RootViewController.m */,
+				C7E55B99228E58BB00A631B1 /* Test1ViewController.h */,
+				C7E55B9A228E58BB00A631B1 /* Test1ViewController.m */,
+				C7E55B9C228E596A00A631B1 /* Test4ViewController.h */,
+				C7E55B9D228E596A00A631B1 /* Test4ViewController.m */,
 				C7E55B6A228E581A00A631B1 /* Main.storyboard */,
 				C7E55B6D228E581B00A631B1 /* Assets.xcassets */,
 				C7E55B6F228E581B00A631B1 /* LaunchScreen.storyboard */,
@@ -262,8 +272,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7E55B69228E581A00A631B1 /* ViewController.m in Sources */,
+				C7E55B9B228E58BC00A631B1 /* Test1ViewController.m in Sources */,
+				C7E55B9E228E596A00A631B1 /* Test4ViewController.m in Sources */,
 				C7E55B74228E581B00A631B1 /* main.m in Sources */,
+				C7E55B98228E58AA00A631B1 /* RootViewController.m in Sources */,
 				C7E55B66228E581A00A631B1 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

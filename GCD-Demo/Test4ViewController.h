@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  Test4ViewController.h
 //  GCD-Demo
 //
 //  Created by 王泽龙 on 2019/5/17.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface Test4ViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
