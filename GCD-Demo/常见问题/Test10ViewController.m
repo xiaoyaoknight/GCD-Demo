@@ -6,36 +6,36 @@
 //  Copyright © 2019 王泽龙. All rights reserved.
 //
 
-#import "Test4ViewController.h"
+#import "Test10ViewController.h"
 
-@interface Test4ViewController ()
+@interface Test10ViewController ()
 
 @end
 
-@implementation Test4ViewController
+@implementation Test10ViewController
 
 - (void)viewDidLoad {
     self.title = @"常见问题";
     self.view.backgroundColor = [UIColor whiteColor];
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"nav_back"] style:UIBarButtonItemStylePlain target:self action:@selector(back)];
     
-//    [self demo1]; // 异步
+    //    [self demo1]; // 异步
     
-//    [self demo2]; // 同步
+    //    [self demo2]; // 同步
     
-//    [self demo3]; // 同步 + 异步
+    //    [self demo3]; // 同步 + 异步
     
-//    [self demo4]; // 同步+主队列 死锁
+    //    [self demo4]; // 同步+主队列 死锁
     
-//    [self demo5]; // 异步+主队列
+    //    [self demo5]; // 异步+主队列
     
-//    [self demo6]; // sync 在串行队列添加任务的时候，会产生死锁，卡住当前队列
+    //    [self demo6]; // sync 在串行队列添加任务的时候，会产生死锁，卡住当前队列
     
-//    [self demo7]; // 放在另外的queue
+    //    [self demo7]; // 放在另外的queue
     
-//    [self demo8]; // 放在并发队列中
+    //    [self demo8]; // 放在并发队列中
     
-//    [self demo9]; // performselector runloop相关
+    //    [self demo9]; // performselector runloop相关
     
     [self demo10]; // performselector runloop相关
 }

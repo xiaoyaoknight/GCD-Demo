@@ -17,6 +17,15 @@
 		C7E55B98228E58AA00A631B1 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E55B97228E58AA00A631B1 /* RootViewController.m */; };
 		C7E55B9B228E58BC00A631B1 /* Test1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E55B9A228E58BB00A631B1 /* Test1ViewController.m */; };
 		C7E55B9E228E596A00A631B1 /* Test4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E55B9D228E596A00A631B1 /* Test4ViewController.m */; };
+		C7E55BA2229280D500A631B1 /* Test2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E55BA1229280D500A631B1 /* Test2ViewController.m */; };
+		C7E55BA52292821C00A631B1 /* Test3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E55BA42292821C00A631B1 /* Test3ViewController.m */; };
+		C7E55BA822928EDF00A631B1 /* Test5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E55BA722928EDF00A631B1 /* Test5ViewController.m */; };
+		C7E55BAD2292907100A631B1 /* Test6ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E55BAC2292907100A631B1 /* Test6ViewController.m */; };
+		C7E55BB02292907D00A631B1 /* Test7ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E55BAF2292907D00A631B1 /* Test7ViewController.m */; };
+		C7E55BB32292909500A631B1 /* Test8ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E55BB22292909500A631B1 /* Test8ViewController.m */; };
+		C7E55BB6229290A000A631B1 /* Test9ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E55BB5229290A000A631B1 /* Test9ViewController.m */; };
+		C7E55BB9229290AF00A631B1 /* Test10ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E55BB8229290AF00A631B1 /* Test10ViewController.m */; };
+		C7E55BC22292969600A631B1 /* TestTicket.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E55BC12292969600A631B1 /* TestTicket.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +66,24 @@
 		C7E55B9A228E58BB00A631B1 /* Test1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test1ViewController.m; sourceTree = "<group>"; };
 		C7E55B9C228E596A00A631B1 /* Test4ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test4ViewController.h; sourceTree = "<group>"; };
 		C7E55B9D228E596A00A631B1 /* Test4ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test4ViewController.m; sourceTree = "<group>"; };
+		C7E55BA0229280D500A631B1 /* Test2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test2ViewController.h; sourceTree = "<group>"; };
+		C7E55BA1229280D500A631B1 /* Test2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test2ViewController.m; sourceTree = "<group>"; };
+		C7E55BA32292821C00A631B1 /* Test3ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test3ViewController.h; sourceTree = "<group>"; };
+		C7E55BA42292821C00A631B1 /* Test3ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test3ViewController.m; sourceTree = "<group>"; };
+		C7E55BA622928EDF00A631B1 /* Test5ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test5ViewController.h; sourceTree = "<group>"; };
+		C7E55BA722928EDF00A631B1 /* Test5ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test5ViewController.m; sourceTree = "<group>"; };
+		C7E55BAB2292907100A631B1 /* Test6ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test6ViewController.h; sourceTree = "<group>"; };
+		C7E55BAC2292907100A631B1 /* Test6ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test6ViewController.m; sourceTree = "<group>"; };
+		C7E55BAE2292907D00A631B1 /* Test7ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test7ViewController.h; sourceTree = "<group>"; };
+		C7E55BAF2292907D00A631B1 /* Test7ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test7ViewController.m; sourceTree = "<group>"; };
+		C7E55BB12292909500A631B1 /* Test8ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test8ViewController.h; sourceTree = "<group>"; };
+		C7E55BB22292909500A631B1 /* Test8ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test8ViewController.m; sourceTree = "<group>"; };
+		C7E55BB4229290A000A631B1 /* Test9ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test9ViewController.h; sourceTree = "<group>"; };
+		C7E55BB5229290A000A631B1 /* Test9ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test9ViewController.m; sourceTree = "<group>"; };
+		C7E55BB7229290AF00A631B1 /* Test10ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test10ViewController.h; sourceTree = "<group>"; };
+		C7E55BB8229290AF00A631B1 /* Test10ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test10ViewController.m; sourceTree = "<group>"; };
+		C7E55BC02292969600A631B1 /* TestTicket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTicket.h; sourceTree = "<group>"; };
+		C7E55BC12292969600A631B1 /* TestTicket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTicket.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,10 +138,16 @@
 				C7E55B65228E581A00A631B1 /* AppDelegate.m */,
 				C7E55B96228E58AA00A631B1 /* RootViewController.h */,
 				C7E55B97228E58AA00A631B1 /* RootViewController.m */,
-				C7E55B99228E58BB00A631B1 /* Test1ViewController.h */,
-				C7E55B9A228E58BB00A631B1 /* Test1ViewController.m */,
-				C7E55B9C228E596A00A631B1 /* Test4ViewController.h */,
-				C7E55B9D228E596A00A631B1 /* Test4ViewController.m */,
+				C7E55BA92292903F00A631B1 /* GCD的任务和队列 */,
+				C7E55BAA2292905100A631B1 /* 线程间通信 */,
+				C7E55BBA2292913B00A631B1 /* 栅栏方法 */,
+				C7E55BBB229291E800A631B1 /* 延时执行方法 */,
+				C7E55BBD2292929000A631B1 /* 一次性代码 */,
+				C7E55BBE2292931300A631B1 /* 快速迭代方法 */,
+				C7E55BBF229293DB00A631B1 /* 队列组 */,
+				C7E55BBC229291FB00A631B1 /* 信号量 */,
+				C7E55BC3229298B500A631B1 /* 线程锁 */,
+				C7E55BC42292B3AD00A631B1 /* 常见问题 */,
 				C7E55B6A228E581A00A631B1 /* Main.storyboard */,
 				C7E55B6D228E581B00A631B1 /* Assets.xcassets */,
 				C7E55B6F228E581B00A631B1 /* LaunchScreen.storyboard */,
@@ -140,6 +173,98 @@
 				C7E55B8A228E581B00A631B1 /* Info.plist */,
 			);
 			path = "GCD-DemoUITests";
+			sourceTree = "<group>";
+		};
+		C7E55BA92292903F00A631B1 /* GCD的任务和队列 */ = {
+			isa = PBXGroup;
+			children = (
+				C7E55B99228E58BB00A631B1 /* Test1ViewController.h */,
+				C7E55B9A228E58BB00A631B1 /* Test1ViewController.m */,
+			);
+			path = "GCD的任务和队列";
+			sourceTree = "<group>";
+		};
+		C7E55BAA2292905100A631B1 /* 线程间通信 */ = {
+			isa = PBXGroup;
+			children = (
+				C7E55BA0229280D500A631B1 /* Test2ViewController.h */,
+				C7E55BA1229280D500A631B1 /* Test2ViewController.m */,
+			);
+			path = "线程间通信";
+			sourceTree = "<group>";
+		};
+		C7E55BBA2292913B00A631B1 /* 栅栏方法 */ = {
+			isa = PBXGroup;
+			children = (
+				C7E55BA32292821C00A631B1 /* Test3ViewController.h */,
+				C7E55BA42292821C00A631B1 /* Test3ViewController.m */,
+			);
+			path = "栅栏方法";
+			sourceTree = "<group>";
+		};
+		C7E55BBB229291E800A631B1 /* 延时执行方法 */ = {
+			isa = PBXGroup;
+			children = (
+				C7E55B9C228E596A00A631B1 /* Test4ViewController.h */,
+				C7E55B9D228E596A00A631B1 /* Test4ViewController.m */,
+			);
+			path = "延时执行方法";
+			sourceTree = "<group>";
+		};
+		C7E55BBC229291FB00A631B1 /* 信号量 */ = {
+			isa = PBXGroup;
+			children = (
+				C7E55BA622928EDF00A631B1 /* Test5ViewController.h */,
+				C7E55BA722928EDF00A631B1 /* Test5ViewController.m */,
+			);
+			path = "信号量";
+			sourceTree = "<group>";
+		};
+		C7E55BBD2292929000A631B1 /* 一次性代码 */ = {
+			isa = PBXGroup;
+			children = (
+				C7E55BAB2292907100A631B1 /* Test6ViewController.h */,
+				C7E55BAC2292907100A631B1 /* Test6ViewController.m */,
+			);
+			path = "一次性代码";
+			sourceTree = "<group>";
+		};
+		C7E55BBE2292931300A631B1 /* 快速迭代方法 */ = {
+			isa = PBXGroup;
+			children = (
+				C7E55BAE2292907D00A631B1 /* Test7ViewController.h */,
+				C7E55BAF2292907D00A631B1 /* Test7ViewController.m */,
+			);
+			path = "快速迭代方法";
+			sourceTree = "<group>";
+		};
+		C7E55BBF229293DB00A631B1 /* 队列组 */ = {
+			isa = PBXGroup;
+			children = (
+				C7E55BB12292909500A631B1 /* Test8ViewController.h */,
+				C7E55BB22292909500A631B1 /* Test8ViewController.m */,
+			);
+			path = "队列组";
+			sourceTree = "<group>";
+		};
+		C7E55BC3229298B500A631B1 /* 线程锁 */ = {
+			isa = PBXGroup;
+			children = (
+				C7E55BB4229290A000A631B1 /* Test9ViewController.h */,
+				C7E55BB5229290A000A631B1 /* Test9ViewController.m */,
+				C7E55BC02292969600A631B1 /* TestTicket.h */,
+				C7E55BC12292969600A631B1 /* TestTicket.m */,
+			);
+			path = "线程锁";
+			sourceTree = "<group>";
+		};
+		C7E55BC42292B3AD00A631B1 /* 常见问题 */ = {
+			isa = PBXGroup;
+			children = (
+				C7E55BB7229290AF00A631B1 /* Test10ViewController.h */,
+				C7E55BB8229290AF00A631B1 /* Test10ViewController.m */,
+			);
+			path = "常见问题";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,7 +399,16 @@
 			files = (
 				C7E55B9B228E58BC00A631B1 /* Test1ViewController.m in Sources */,
 				C7E55B9E228E596A00A631B1 /* Test4ViewController.m in Sources */,
+				C7E55BB9229290AF00A631B1 /* Test10ViewController.m in Sources */,
+				C7E55BA52292821C00A631B1 /* Test3ViewController.m in Sources */,
 				C7E55B74228E581B00A631B1 /* main.m in Sources */,
+				C7E55BC22292969600A631B1 /* TestTicket.m in Sources */,
+				C7E55BB6229290A000A631B1 /* Test9ViewController.m in Sources */,
+				C7E55BA822928EDF00A631B1 /* Test5ViewController.m in Sources */,
+				C7E55BA2229280D500A631B1 /* Test2ViewController.m in Sources */,
+				C7E55BB32292909500A631B1 /* Test8ViewController.m in Sources */,
+				C7E55BB02292907D00A631B1 /* Test7ViewController.m in Sources */,
+				C7E55BAD2292907100A631B1 /* Test6ViewController.m in Sources */,
 				C7E55B98228E58AA00A631B1 /* RootViewController.m in Sources */,
 				C7E55B66228E581A00A631B1 /* AppDelegate.m in Sources */,
 			);
