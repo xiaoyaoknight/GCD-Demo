@@ -35,6 +35,11 @@
 		C7E55BDF2292EA5500A631B1 /* Test16ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E55BDE2292EA5500A631B1 /* Test16ViewController.m */; };
 		C7E55BE22292EAC400A631B1 /* Test18ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E55BE12292EAC400A631B1 /* Test18ViewController.m */; };
 		C7E55BE52292EACD00A631B1 /* Test19ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E55BE42292EACD00A631B1 /* Test19ViewController.m */; };
+		C7E55BF02293F2F700A631B1 /* TicketDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E55BEF2293F2F700A631B1 /* TicketDemo.m */; };
+		C7E55BF32293F51A00A631B1 /* SynchronizedTicketDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E55BF22293F51A00A631B1 /* SynchronizedTicketDemo.m */; };
+		C7E55BF62293F76600A631B1 /* OSSpinLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E55BF52293F76600A631B1 /* OSSpinLockDemo.m */; };
+		C7E55BF9229402FB00A631B1 /* os_unfair_lockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E55BF8229402FB00A631B1 /* os_unfair_lockDemo.m */; };
+		C7E55BFC22940CFF00A631B1 /* pthread_mutexDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E55BFB22940CFF00A631B1 /* pthread_mutexDemo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,6 +116,16 @@
 		C7E55BE12292EAC400A631B1 /* Test18ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test18ViewController.m; sourceTree = "<group>"; };
 		C7E55BE32292EACD00A631B1 /* Test19ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test19ViewController.h; sourceTree = "<group>"; };
 		C7E55BE42292EACD00A631B1 /* Test19ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test19ViewController.m; sourceTree = "<group>"; };
+		C7E55BEE2293F2F700A631B1 /* TicketDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TicketDemo.h; sourceTree = "<group>"; };
+		C7E55BEF2293F2F700A631B1 /* TicketDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TicketDemo.m; sourceTree = "<group>"; };
+		C7E55BF12293F51A00A631B1 /* SynchronizedTicketDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SynchronizedTicketDemo.h; sourceTree = "<group>"; };
+		C7E55BF22293F51A00A631B1 /* SynchronizedTicketDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SynchronizedTicketDemo.m; sourceTree = "<group>"; };
+		C7E55BF42293F76600A631B1 /* OSSpinLockDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSSpinLockDemo.h; sourceTree = "<group>"; };
+		C7E55BF52293F76600A631B1 /* OSSpinLockDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSSpinLockDemo.m; sourceTree = "<group>"; };
+		C7E55BF7229402FB00A631B1 /* os_unfair_lockDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = os_unfair_lockDemo.h; sourceTree = "<group>"; };
+		C7E55BF8229402FB00A631B1 /* os_unfair_lockDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = os_unfair_lockDemo.m; sourceTree = "<group>"; };
+		C7E55BFA22940CFF00A631B1 /* pthread_mutexDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pthread_mutexDemo.h; sourceTree = "<group>"; };
+		C7E55BFB22940CFF00A631B1 /* pthread_mutexDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pthread_mutexDemo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -284,6 +299,16 @@
 				C7E55BB5229290A000A631B1 /* Test9ViewController.m */,
 				C7E55BC02292969600A631B1 /* TestTicket.h */,
 				C7E55BC12292969600A631B1 /* TestTicket.m */,
+				C7E55BEE2293F2F700A631B1 /* TicketDemo.h */,
+				C7E55BEF2293F2F700A631B1 /* TicketDemo.m */,
+				C7E55BF42293F76600A631B1 /* OSSpinLockDemo.h */,
+				C7E55BF52293F76600A631B1 /* OSSpinLockDemo.m */,
+				C7E55BF7229402FB00A631B1 /* os_unfair_lockDemo.h */,
+				C7E55BF8229402FB00A631B1 /* os_unfair_lockDemo.m */,
+				C7E55BFA22940CFF00A631B1 /* pthread_mutexDemo.h */,
+				C7E55BFB22940CFF00A631B1 /* pthread_mutexDemo.m */,
+				C7E55BF12293F51A00A631B1 /* SynchronizedTicketDemo.h */,
+				C7E55BF22293F51A00A631B1 /* SynchronizedTicketDemo.m */,
 			);
 			path = "线程锁";
 			sourceTree = "<group>";
@@ -530,7 +555,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7E55BF32293F51A00A631B1 /* SynchronizedTicketDemo.m in Sources */,
 				C7E55B9B228E58BC00A631B1 /* Test1ViewController.m in Sources */,
+				C7E55BFC22940CFF00A631B1 /* pthread_mutexDemo.m in Sources */,
+				C7E55BF62293F76600A631B1 /* OSSpinLockDemo.m in Sources */,
 				C7E55BC72292CA9500A631B1 /* Test11ViewController.m in Sources */,
 				C7E55B9E228E596A00A631B1 /* Test4ViewController.m in Sources */,
 				C7E55BE52292EACD00A631B1 /* Test19ViewController.m in Sources */,
@@ -547,11 +575,13 @@
 				C7E55BA2229280D500A631B1 /* Test2ViewController.m in Sources */,
 				C7E55BD62292DEA300A631B1 /* Test15ViewController.m in Sources */,
 				C7E55BB32292909500A631B1 /* Test8ViewController.m in Sources */,
+				C7E55BF02293F2F700A631B1 /* TicketDemo.m in Sources */,
 				C7E55BD32292DE8200A631B1 /* Test14ViewController.m in Sources */,
 				C7E55BB02292907D00A631B1 /* Test7ViewController.m in Sources */,
 				C7E55BAD2292907100A631B1 /* Test6ViewController.m in Sources */,
 				C7E55B98228E58AA00A631B1 /* RootViewController.m in Sources */,
 				C7E55BDF2292EA5500A631B1 /* Test16ViewController.m in Sources */,
+				C7E55BF9229402FB00A631B1 /* os_unfair_lockDemo.m in Sources */,
 				C7E55B66228E581A00A631B1 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
