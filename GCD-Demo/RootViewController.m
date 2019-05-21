@@ -17,6 +17,15 @@
 #import "Test8ViewController.h"
 #import "Test9ViewController.h"
 #import "Test10ViewController.h"
+#import "Test11ViewController.h"
+#import "Test12ViewController.h"
+#import "Test13ViewController.h"
+#import "Test14ViewController.h"
+#import "Test15ViewController.h"
+#import "Test16ViewController.h"
+#import "Test17ViewController.h"
+#import "Test18ViewController.h"
+#import "Test19ViewController.h"
 
 @interface RootViewController ()<UITableViewDataSource, UITableViewDelegate>
 
@@ -40,7 +49,16 @@
                       @"GCD其他方法-队列组",
                       @"GCD其他方法-信号量",
                       @"GCD线程安全问题",
-                      @"常见问题", nil];
+                      @"GCD常见问题",
+                      @"pthread线程锁",
+                      @"NSthread",
+                      @"NSOperation - NSInvocationOperation",
+                      @"NSOperation - NSBlockOperation",
+                      @"NSOperation - 自定义",
+                      @"NSOperationQueue - 最大并发数",
+                      @"NSOperationQueue - 线程的挂起",
+                      @"NSOperationQueue - 取消队列里的所有操作",
+                      @"NSOperationQueue - 依赖关系",nil];
     
     self.tableview = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height) style:UITableViewStyleGrouped];
     [self.view addSubview:self.tableview];
@@ -127,6 +145,60 @@ cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
     if (indexPath.row == 9) {
         Test10ViewController *test1VC = [[Test10ViewController alloc] init];
+        UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:test1VC];
+        [self presentViewController:nav animated:YES completion:nil];
+    }
+    
+    if (indexPath.row == 10) {
+        Test11ViewController *test1VC = [[Test11ViewController alloc] init];
+        UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:test1VC];
+        [self presentViewController:nav animated:YES completion:nil];
+    }
+    
+    if (indexPath.row == 11) {
+        Test12ViewController *test1VC = [[Test12ViewController alloc] init];
+        UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:test1VC];
+        [self presentViewController:nav animated:YES completion:nil];
+    }
+    
+    if (indexPath.row == 12) {
+        Test13ViewController *test1VC = [[Test13ViewController alloc] init];
+        UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:test1VC];
+        [self presentViewController:nav animated:YES completion:nil];
+    }
+    
+    if (indexPath.row == 13) {
+        Test14ViewController *test1VC = [[Test14ViewController alloc] init];
+        UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:test1VC];
+        [self presentViewController:nav animated:YES completion:nil];
+    }
+    
+    if (indexPath.row == 14) {
+        Test15ViewController *test1VC = [[Test15ViewController alloc] init];
+        UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:test1VC];
+        [self presentViewController:nav animated:YES completion:nil];
+    }
+    
+    if (indexPath.row == 15) {
+        Test16ViewController *test1VC = [[Test16ViewController alloc] init];
+        UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:test1VC];
+        [self presentViewController:nav animated:YES completion:nil];
+    }
+    
+    if (indexPath.row == 16) {
+        Test17ViewController *test1VC = [[Test17ViewController alloc] init];
+        UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:test1VC];
+        [self presentViewController:nav animated:YES completion:nil];
+    }
+    
+    if (indexPath.row == 17) {
+        Test18ViewController *test1VC = [[Test18ViewController alloc] init];
+        UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:test1VC];
+        [self presentViewController:nav animated:YES completion:nil];
+    }
+    
+    if (indexPath.row == 18) {
+        Test19ViewController *test1VC = [[Test19ViewController alloc] init];
         UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:test1VC];
         [self presentViewController:nav animated:YES completion:nil];
     }
