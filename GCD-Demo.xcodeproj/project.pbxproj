@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C74A589F2294F9A3004B2E24 /* pthread_mutexDemo2.m in Sources */ = {isa = PBXBuildFile; fileRef = C74A589E2294F9A3004B2E24 /* pthread_mutexDemo2.m */; };
+		C74A58A22294FC4C004B2E24 /* pthread_mutexDemo3.m in Sources */ = {isa = PBXBuildFile; fileRef = C74A58A12294FC4C004B2E24 /* pthread_mutexDemo3.m */; };
+		C74A58A52294FEDA004B2E24 /* NSLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = C74A58A42294FEDA004B2E24 /* NSLockDemo.m */; };
+		C74A58A82294FF86004B2E24 /* NSRecursiveLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = C74A58A72294FF86004B2E24 /* NSRecursiveLockDemo.m */; };
+		C74A58AB22950087004B2E24 /* NSConditionDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = C74A58AA22950087004B2E24 /* NSConditionDemo.m */; };
+		C74A58AE22951F3C004B2E24 /* NSConditionLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = C74A58AD22951F3C004B2E24 /* NSConditionLockDemo.m */; };
+		C74A58B1229521D0004B2E24 /* dispatch_semaphoreDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = C74A58B0229521D0004B2E24 /* dispatch_semaphoreDemo.m */; };
+		C74A58B42295287C004B2E24 /* pthread_rwlockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = C74A58B32295287C004B2E24 /* pthread_rwlockDemo.m */; };
 		C7E55B66228E581A00A631B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E55B65228E581A00A631B1 /* AppDelegate.m */; };
 		C7E55B6C228E581A00A631B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7E55B6A228E581A00A631B1 /* Main.storyboard */; };
 		C7E55B6E228E581B00A631B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7E55B6D228E581B00A631B1 /* Assets.xcassets */; };
@@ -60,6 +68,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C74A589D2294F9A3004B2E24 /* pthread_mutexDemo2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pthread_mutexDemo2.h; sourceTree = "<group>"; };
+		C74A589E2294F9A3004B2E24 /* pthread_mutexDemo2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pthread_mutexDemo2.m; sourceTree = "<group>"; };
+		C74A58A02294FC4C004B2E24 /* pthread_mutexDemo3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pthread_mutexDemo3.h; sourceTree = "<group>"; };
+		C74A58A12294FC4C004B2E24 /* pthread_mutexDemo3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pthread_mutexDemo3.m; sourceTree = "<group>"; };
+		C74A58A32294FEDA004B2E24 /* NSLockDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSLockDemo.h; sourceTree = "<group>"; };
+		C74A58A42294FEDA004B2E24 /* NSLockDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSLockDemo.m; sourceTree = "<group>"; };
+		C74A58A62294FF86004B2E24 /* NSRecursiveLockDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSRecursiveLockDemo.h; sourceTree = "<group>"; };
+		C74A58A72294FF86004B2E24 /* NSRecursiveLockDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSRecursiveLockDemo.m; sourceTree = "<group>"; };
+		C74A58A922950087004B2E24 /* NSConditionDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSConditionDemo.h; sourceTree = "<group>"; };
+		C74A58AA22950087004B2E24 /* NSConditionDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSConditionDemo.m; sourceTree = "<group>"; };
+		C74A58AC22951F3C004B2E24 /* NSConditionLockDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSConditionLockDemo.h; sourceTree = "<group>"; };
+		C74A58AD22951F3C004B2E24 /* NSConditionLockDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSConditionLockDemo.m; sourceTree = "<group>"; };
+		C74A58AF229521D0004B2E24 /* dispatch_semaphoreDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dispatch_semaphoreDemo.h; sourceTree = "<group>"; };
+		C74A58B0229521D0004B2E24 /* dispatch_semaphoreDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dispatch_semaphoreDemo.m; sourceTree = "<group>"; };
+		C74A58B22295287C004B2E24 /* pthread_rwlockDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pthread_rwlockDemo.h; sourceTree = "<group>"; };
+		C74A58B32295287C004B2E24 /* pthread_rwlockDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pthread_rwlockDemo.m; sourceTree = "<group>"; };
 		C7E55B61228E581A00A631B1 /* GCD-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GCD-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7E55B64228E581A00A631B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C7E55B65228E581A00A631B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -307,8 +331,24 @@
 				C7E55BF8229402FB00A631B1 /* os_unfair_lockDemo.m */,
 				C7E55BFA22940CFF00A631B1 /* pthread_mutexDemo.h */,
 				C7E55BFB22940CFF00A631B1 /* pthread_mutexDemo.m */,
+				C74A589D2294F9A3004B2E24 /* pthread_mutexDemo2.h */,
+				C74A589E2294F9A3004B2E24 /* pthread_mutexDemo2.m */,
+				C74A58A02294FC4C004B2E24 /* pthread_mutexDemo3.h */,
+				C74A58A12294FC4C004B2E24 /* pthread_mutexDemo3.m */,
+				C74A58A32294FEDA004B2E24 /* NSLockDemo.h */,
+				C74A58A42294FEDA004B2E24 /* NSLockDemo.m */,
+				C74A58A62294FF86004B2E24 /* NSRecursiveLockDemo.h */,
+				C74A58A72294FF86004B2E24 /* NSRecursiveLockDemo.m */,
+				C74A58A922950087004B2E24 /* NSConditionDemo.h */,
+				C74A58AA22950087004B2E24 /* NSConditionDemo.m */,
+				C74A58AC22951F3C004B2E24 /* NSConditionLockDemo.h */,
+				C74A58AD22951F3C004B2E24 /* NSConditionLockDemo.m */,
+				C74A58AF229521D0004B2E24 /* dispatch_semaphoreDemo.h */,
+				C74A58B0229521D0004B2E24 /* dispatch_semaphoreDemo.m */,
 				C7E55BF12293F51A00A631B1 /* SynchronizedTicketDemo.h */,
 				C7E55BF22293F51A00A631B1 /* SynchronizedTicketDemo.m */,
+				C74A58B22295287C004B2E24 /* pthread_rwlockDemo.h */,
+				C74A58B32295287C004B2E24 /* pthread_rwlockDemo.m */,
 			);
 			path = "线程锁";
 			sourceTree = "<group>";
@@ -558,11 +598,15 @@
 				C7E55BF32293F51A00A631B1 /* SynchronizedTicketDemo.m in Sources */,
 				C7E55B9B228E58BC00A631B1 /* Test1ViewController.m in Sources */,
 				C7E55BFC22940CFF00A631B1 /* pthread_mutexDemo.m in Sources */,
+				C74A58B1229521D0004B2E24 /* dispatch_semaphoreDemo.m in Sources */,
 				C7E55BF62293F76600A631B1 /* OSSpinLockDemo.m in Sources */,
 				C7E55BC72292CA9500A631B1 /* Test11ViewController.m in Sources */,
 				C7E55B9E228E596A00A631B1 /* Test4ViewController.m in Sources */,
+				C74A58A52294FEDA004B2E24 /* NSLockDemo.m in Sources */,
+				C74A589F2294F9A3004B2E24 /* pthread_mutexDemo2.m in Sources */,
 				C7E55BE52292EACD00A631B1 /* Test19ViewController.m in Sources */,
 				C7E55BCB2292CD5B00A631B1 /* Test12ViewController.m in Sources */,
+				C74A58A22294FC4C004B2E24 /* pthread_mutexDemo3.m in Sources */,
 				C7E55BB9229290AF00A631B1 /* Test10ViewController.m in Sources */,
 				C7E55BE22292EAC400A631B1 /* Test18ViewController.m in Sources */,
 				C7E55BA52292821C00A631B1 /* Test3ViewController.m in Sources */,
@@ -572,9 +616,13 @@
 				C7E55BA822928EDF00A631B1 /* Test5ViewController.m in Sources */,
 				C7E55BCF2292DA6000A631B1 /* Test13ViewController.m in Sources */,
 				C7E55BDC2292E36C00A631B1 /* Test17ViewController.m in Sources */,
+				C74A58AE22951F3C004B2E24 /* NSConditionLockDemo.m in Sources */,
 				C7E55BA2229280D500A631B1 /* Test2ViewController.m in Sources */,
 				C7E55BD62292DEA300A631B1 /* Test15ViewController.m in Sources */,
 				C7E55BB32292909500A631B1 /* Test8ViewController.m in Sources */,
+				C74A58B42295287C004B2E24 /* pthread_rwlockDemo.m in Sources */,
+				C74A58AB22950087004B2E24 /* NSConditionDemo.m in Sources */,
+				C74A58A82294FF86004B2E24 /* NSRecursiveLockDemo.m in Sources */,
 				C7E55BF02293F2F700A631B1 /* TicketDemo.m in Sources */,
 				C7E55BD32292DE8200A631B1 /* Test14ViewController.m in Sources */,
 				C7E55BB02292907D00A631B1 /* Test7ViewController.m in Sources */,
